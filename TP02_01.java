@@ -1,61 +1,49 @@
-
 import java.util.*;
-
 /**Escola Superior de Tecnologia e Gestão do
  * Instituto PolitÈcnico de Beja
  * em 2016/09/29
  * -----------------------------------------------------
- * Escreva um programa que pede a quantidade de alunos. 
- * Seguidamente pede o nome e a nota de cada aluno. 
- * No final o programa escreve o nome do aluno com a nota mais alta 
- * e do aluno com a segunda nota mas alta.
- * @author (Hugo Alexandre Silva 18544) 
- * @version (V.1 - 30/10/2019)
+ * Escreva um programa que recebe a quantidade de lados de um 
+ * polígono regular e o comprimento do lado. 
+ * O programa pede esses dois valores ao utilizador e 
+ * escreve o valor da área.
+ * @author (Hugo Alexandre Silva - 18544) 
+ * @version (V.1 - 11/11/2019)
  */
-public class TP02_01
-{
+public class TP02_01{
     final static Scanner scanner = new Scanner(System.in);
     static { scanner.useLocale(Locale.ENGLISH); }
-    //função chama quantidade de alunos a ser lançado para registro de notas e nomes;
-    public static void main(String[] args){
-        int numeroAlunos = numeroAlunos("Digite a quantidade de alunos a ser lançada nota e nome: ");
-        notaNomeAluno(numeroAlunos); //chama a função onde vamos registrar os dados dos alunos;
+    //função principal chamamento das ações, variaveis e metodos.
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        int nSides = nSides("Digite quantos lados possui o triângulo.");
+        double leng = len("Digite o valor dos lados do triângulo.");
+        double a = areaRegPolygon(nSides, leng);
+
     }
-    //função chama notas dos alunos a ser lançada;
-    public static int numeroAlunos(String message){
+    //função solicita que o utilizador informe valor e retorna a mensagem na função principal.
+    public static int nSides(String message){
         System.out.print(message);
-        int nAlunos = scanner.nextInt();
-        return nAlunos;
+        int nSides = scanner.nextInt();//solicita o valor para o utilizador
+        return nSides;
     }
-    //função com os dados dos alunos, aqui será solicitado os nomes e notas;
-    public static void notaNomeAluno(int numeroAlunos){
-        //declaração das variaveis a serem usadas para a leitura de nome e nota;
-        String nomeMaior = ""; //irá receber o nome do aluno de maior nota;
-        double notaMaior = 0; //irá receber a nota do aluno de maior nota;
-        String nomeMaior2 = ""; //irá receber o nome do aluno de segunda maior nota;
-        double notaMaior2 = 0; //irá receber a nota do aluno de segunda maior nota;
-        //for para efetuar a contagem do numero de alunos a ser digitado para lançamento de notas e nomes;
-        for (int i = 0; i< numeroAlunos; i++){
-            System.out.print("Digite o nome do aluno: ");
-            String nomeAlunos = scanner.next();
-            int notaAlunos = numeroAlunos ("Digite a nota do aluno: "); //chamamento da função da nota;
-            //elabora condição para primeira regra de armazenamento de notas, para demonstrar nota maior;
-            if(notaAlunos >= notaMaior){
-                notaMaior2 = notaMaior;
-                nomeMaior2 = nomeMaior;
-                notaMaior = notaAlunos;
-                nomeMaior = nomeAlunos;
-            }
-            //elabora condição para segunda regra de armazenamento de nota, para demonstrar segunda maior nota;
-            if(notaMaior2 < notaAlunos && notaMaior > notaAlunos){
-                notaMaior2 = notaAlunos;
-                nomeMaior2 = nomeAlunos;
-            }
+    //função solicita que o utilizador informe valor de medida e retorna a mensagem na função principal
+    public static double len(String message){
+        System.out.print(message);
+        double len = scanner.nextDouble();//solicita a medida ao utilizador
+        return len;
+    }
+    //função de calculo de area com valores de medida e numero de lados
+    public static double areaRegPolygon(int nSides, double len){
+        len = (nSides * len) / 2.0; // recebe valores do triangulo x (soma) divide por 2;
+        double areaX = Math.sqrt(len * (len - nSides)); // formula a área do triangulo;
+
+        if(areaX <= 0){//condição para verificar se o valor de área for menor que zero ou não.
+            System.out.println("Área não pode ser calculada, valor negativo ou zero de área!");
+        }else{
+            System.out.println("A área do triangulos é! " + areaX);
         }
-        //impressão de resultados;
-        System.out.println("O nome do aluno de maior nota é: " + nomeMaior);
-        System.out.println("A maior nota é: " + notaMaior);
-        System.out.println("O nome do aluno de segunda maior nota é: " + nomeMaior2);
-        System.out.println("A segunda maior nota é: " + notaMaior2);
+        return areaX;
     }
+
 }
