@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TP02_01
+comment0.text=Escola\ Superior\ de\ Tecnologia\ e\ Gest\u00E3o\ do\r\n\ Instituto\ Polit\u00C8cnico\ de\ Beja\r\n\ em\ 2016/09/29\r\n\ -----------------------------------------------------\r\n\ Escreva\ um\ programa\ que\ pede\ a\ quantidade\ de\ alunos.\ \r\n\ Seguidamente\ pede\ o\ nome\ e\ a\ nota\ de\ cada\ aluno.\ \r\n\ No\ final\ o\ programa\ escreve\ o\ nome\ do\ aluno\ com\ a\ nota\ mais\ alta\ \r\n\ e\ do\ aluno\ com\ a\ segunda\ nota\ mas\ alta.\r\n\ @author\ (Hugo\ Alexandre\ Silva\ 18544)\ \r\n\ @version\ (V.1\ -\ 30/10/2019)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=message
+comment2.target=int\ numeroAlunos(java.lang.String)
+comment3.params=numeroAlunos
+comment3.target=void\ notaNomeAluno(int)
+numComments=4
