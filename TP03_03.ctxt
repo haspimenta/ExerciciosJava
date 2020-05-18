@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TP03_03
+comment0.text=Escola\ Superior\ de\ Tecnologia\ e\ Gest\u00E3o\ do\r\n\ Instituto\ Polit\u00C8cnico\ de\ Beja\r\n\ em\ 2016/09/29\r\n\ -----------------------------------------------------\r\n\ Escreva\ um\ programa\ que\ permite\ testar\ a\ seguinte\ fun\u00E7\u00E3o\:\r\n\ int[]\ positionsOfChar(String\ s,\ char\ c)\r\n\ O\ array\ devolvido\ pela\ fun\u00E7\u00E3o\ deve\ conter\ as\ posi\u00E7\u00F5es\ onde\ ocorre\ o\ char\ c.\ Por\ exemplo,\ para\ a\ chamada\ \r\n\ int[]\ v\ \=\ positionsOfChar("adfaDSaJKLa",\ 'a')\r\n\ o\ array\ v\ deve\ ficar\ com\ o\ seguinte\ conte\u00FAdo\:\ {0,\ 3,\ 6,\ 10}\r\n\ @author\ (Hugo\ Alexandre\ Silva\ -\ 18544)\r\n\ @version\ (V.1\ -\ 04/12/2019)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=s\ c
+comment2.target=int[]\ positionsOfChar(java.lang.String,\ char)
+comment3.params=s\ c
+comment3.target=int\ arrayLength(java.lang.String,\ char)
+numComments=4

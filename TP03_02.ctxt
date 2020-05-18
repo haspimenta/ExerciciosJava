@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=TP03_02
+comment0.text=Escola\ Superior\ de\ Tecnologia\ e\ Gest\u00E3o\ do\r\n\ Instituto\ Polit\u00C8cnico\ de\ Beja\r\n\ em\ 2016/09/29\r\n\ -----------------------------------------------------\r\n\ Escreva\ um\ programa\ que\ pede\ ao\ utilizador\ o\ ano\ e\ o\ primeiro\ dia\ do\ ano\ \r\n\ (1\ se\ for\ um\ domingo,\ 2\ se\ for\ segunda-feira,\ etc).\r\n\ Seguidamente\ o\ programa\ escreve\ qual\ o\ dia\ da\ semana\ do\ primeiro\ \r\n\ dia\ de\ cada\ m\u00EAs.\r\n\ @author\ (Hugo\ Alexandre\ Silva\ -\ 18544)\r\n\ @version\ (V.1\ -\ 01/12/2019)\r\n\ @version\ (V.2\ -\ 03/12/2019)\r\n\ @version\ (V.3\ -\ 04/12/2019)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ stringMessage()
+comment3.params=
+comment3.target=void\ bCalc()
+comment4.params=question
+comment4.target=int\ stringEntrada(java.lang.String)
+comment5.params=ano
+comment5.target=int[]\ diasMes(int)
+numComments=6
