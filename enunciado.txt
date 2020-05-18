@@ -1,0 +1,19 @@
+1. (6 valores + 4 valores pela utilização de funções)
+Escreva um programa que recebe um número inteiro positivo e escreve um "triângulo" 
+de números com a seguinte disposição, exemplificada para o caso em que o número é 5:
+
+1 2 3 4 5
+
+1 2 3 4
+
+1 2 3
+
+1 2
+
+1
+
+2. (6 valores + 4 valores pela utilização de funções) Escreva um programa que pede 
+a quantidade de alunos. Seguidamente pede o nome e a nota de cada aluno. 
+No final o programa escreve o nome do aluno com a nota mais alta e do aluno com a 
+segunda nota mas alta. Note que vai precisar de um ciclo e ir guardando os nomes e notas de dois alunos
+ (os dois que têm as notas mais altas em cada momento).

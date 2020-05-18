@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TP01_01
+comment0.text=Escola\ Superior\ de\ Tecnologia\ e\ Gest\u00E3o\ do\r\n\ Instituto\ Polit\u00C8cnico\ de\ Beja\r\n\ em\ 2016/09/29\r\n\ -----------------------------------------------------\r\n\ Escreva\ um\ programa\ que\ recebe\ um\ n\u00FAmero\ inteiro\ positivo\ e\ escreve\ um\ \r\n\ "tri\u00E2ngulo"\ de\ n\u00FAmeros\ com\ a\ seguinte\ disposi\u00E7\u00E3o,\ \r\n\ exemplificada\ para\ o\ caso\ em\ que\ o\ n\u00FAmero\ \u00E9\ 5.\r\n\ @author\ (Hugo\ Alexandre\ Silva\ 18544)\ \r\n\ @version\ (V.1\ -\ 30/10/2019)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=message
+comment2.target=int\ nLinhas(java.lang.String)
+comment3.params=nLinhas
+comment3.target=void\ Quantidade(int)
+numComments=4
