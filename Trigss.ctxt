@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Trigss
+comment0.text=\ Este\ template\ foi\ criado\ na\ \r\n\ Escola\ Superior\ de\ Tecnologia\ e\ Gest\u00E3o\ do\r\n\ Instituto\ Polit\u00C8cnico\ de\ Beja\r\n\ em\ 2016/10/05\r\n\ -----------------------------------------------------\r\n\ Esta\ classe\ cria\ um\ programa\ utilizando\ JavaFX\ que\ funciona\ dentro\ do\ BLueJ\ e\r\n\ com\ um\ "Pane"\ para\ desenho\ de\ "Shapes"\ \r\n\ Deve\ criar\ um\ objeto\ da\ classe\ GUI\ e\ depois\ chamar\ o\ m\u00E9todo\ launch()\r\n\ @author\ Hugo\ Alexandre\ Silva\ -\ 18544\r\n\ @version\ V3-15/01/2020\r\n
+comment1.params=pane\ x\ y\ size\ n
+comment1.target=Trigss(javafx.scene.layout.Pane,\ double,\ double,\ double,\ int)
+comment2.params=pol
+comment2.target=void\ ConfTriangulo(javafx.scene.shape.Polygon)
+numComments=3
