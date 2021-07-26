@@ -1,9 +1,6 @@
 import java.util.*;
-/**Escola Superior de Tecnologia e Gestão do
- * Instituto PolitÈcnico de Beja
- * em 2016/09/29
- * -----------------------------------------------------
- * @author (Hugo Alexandre Silva - 18544)
+/**
+ * @author (Hugo Alexandre Silva)
  * @version 17/12/2019
  * @version 18/12/2019
  */
