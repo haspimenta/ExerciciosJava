@@ -12,11 +12,7 @@ import java.util.*;
 import javafx.geometry.Pos;
 import javafx.scene.paint.Color;
 
-/** Este template foi criado na 
- * Escola Superior de Tecnologia e Gestão do
- * Instituto PolitÈcnico de Beja
- * em 2016/10/05
- * -----------------------------------------------------
+/**
  * Hugo Alexandre Silva
  * Versão1 - 16/12/2019
  * Versão2 - 18/12/2019
