@@ -1,14 +1,11 @@
 import java.util.*;
-/**Escola Superior de Tecnologia e Gestão do
- * Instituto PolitÈcnico de Beja
- * em 2016/09/29
- * -----------------------------------------------------
+/**
  * Escreva um programa que permite testar a seguinte função:
  * int[] positionsOfChar(String s, char c)
  * O array devolvido pela função deve conter as posições onde ocorre o char c. Por exemplo, para a chamada 
  * int[] v = positionsOfChar("adfaDSaJKLa", 'a')
  * o array v deve ficar com o seguinte conteúdo: {0, 3, 6, 10}
- * @author (Hugo Alexandre Silva - 18544)
+ * @author (Hugo Alexandre Silva)
  * @version (V.1 - 04/12/2019)
  */
 public class TP03_03{
