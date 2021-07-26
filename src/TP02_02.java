@@ -1,12 +1,9 @@
 import java.util.*;
-/**Escola Superior de Tecnologia e Gestão do
- * Instituto PolitÈcnico de Beja
- * em 2016/09/29
- * -----------------------------------------------------
+/**
  * Escreva um programa que pede o ano e as primeiras três letras do nome de um mês
  * e escreve a quantidade de dias desse mês. Note que a quantidade de dias do mês
  * de fevereiro está dependente do ano ser ou não bissexto.
- * @author (Hugo Alexandre Silva - 18544)
+ * @author (Hugo Alexandre Silva)
  * @version (V.1 - 11/11/2019)
  */
 public class TP02_02{
