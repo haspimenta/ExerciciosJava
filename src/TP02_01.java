@@ -1,10 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
-/**Escola Superior de Tecnologia e Gestão do
- * Instituto PolitÈcnico de Beja
- * em 2016/09/29
- * -----------------------------------------------------
- * @author (Hugo Alexandre Silva 18544)
+/**
+ * @author (Hugo Alexandre Silva)
  * @version (V.1)
  */
 public class TP02_01 {
