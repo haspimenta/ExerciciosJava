@@ -1,13 +1,10 @@
 import java.util.*;
-/**Escola Superior de Tecnologia e Gestão do
- * Instituto PolitÈcnico de Beja
- * em 2016/09/29
- * -----------------------------------------------------
+/**
  * Escreva um programa que utiliza uma função
  * static String capitalizeName(String name)
  * que recebe o nome completo de uma pessoa e
  * devolve esse nome com a letra inicial de cada nome capitalizada.
- * @author (Hugo Alexandre Silva - 18544)
+ * @author (Hugo Alexandre Silva)
  * @version (V.1 - 11/11/2019)
  */
 public class TP02_04
