@@ -1,12 +1,9 @@
 import java.util.*;
-/**Escola Superior de Tecnologia e Gestão do
- * Instituto PolitÈcnico de Beja
- * em 2016/09/29
- * -----------------------------------------------------
+/**
  * Escreva um programa que recebe um número inteiro positivo e escreve a metade
  * "triângulo" de números com a seguinte disposição,
  * exemplificada para o caso em que o número é 5.
- * @author (Hugo Alexandre Silva 18544)
+ * @author (Hugo Alexandre Silva)
  * @version (V.1 - 30/10/2019)
  */
 public class TP01_01
