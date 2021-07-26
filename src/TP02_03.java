@@ -1,12 +1,9 @@
 import java.util.*;
-/**Escola Superior de Tecnologia e Gestão do
- * Instituto PolitÈcnico de Beja
- * em 2016/09/29
- * -----------------------------------------------------
+/**
  * Ainda considerando o programa 2,
  * se o utilizador indicar o mês "all",
  * o programa irá escrever os dias de todos os meses do ano indicado.
- * @author (Hugo Alexandre Silva - 18544)
+ * @author (Hugo Alexandre Silva)
  * @version (V.1 - 11/11/2019)
  */
 public class TP02_03 {
