@@ -4,15 +4,11 @@ import javafx.scene.layout.*;
 import javafx.stage.*;
 import javafx.embed.swing.*;
 import javafx.scene.paint.Color;
-/** Este template foi criado na 
- * Escola Superior de Tecnologia e Gestão do
- * Instituto PolitÈcnico de Beja
- * em 2016/10/05
- * -----------------------------------------------------
+/**
  * Esta classe cria um programa utilizando JavaFX que funciona dentro do BLueJ e
  * com um "Pane" para desenho de "Shapes"
  * Deve criar um objeto da classe GUI e depois chamar o método launch()
- * @author Hugo Alexandre Silva - 18544
+ * @author Hugo Alexandre Silva
  * @version V3-15/01/2020
  */
 public class TP05_02 {
