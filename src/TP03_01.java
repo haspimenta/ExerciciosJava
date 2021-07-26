@@ -1,8 +1,5 @@
 import java.util.*;
-/**Escola Superior de Tecnologia e Gestão do
- * Instituto PolitÈcnico de Beja
- * em 2016/09/29
- * -----------------------------------------------------
+/**
  * Escreva um programa que pede um número n ímpar entre 3 e 15 
  * e escreve asteriscos em formato de diamante, 
  * tal como exemplficado em seguida para alguns valores de n. 
@@ -12,7 +9,7 @@ import java.util.*;
  * só depois escrever essa String. Essa String deve ser criada pelo 
  * método static String drawDiamond(int n). 
  * Note que a maior parte das linhas têm espaços e asteriscos.
- * @author (Hugo Alexandre Silva - 18544)
+ * @author (Hugo Alexandre Silva)
  * @version (V.1 - 02/12/2019)
  */
 public class TP03_01{
