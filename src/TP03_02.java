@@ -1,13 +1,10 @@
 import java.util.*;
-/**Escola Superior de Tecnologia e Gestão do
- * Instituto PolitÈcnico de Beja
- * em 2016/09/29
- * -----------------------------------------------------
+/**
  * Escreva um programa que pede ao utilizador o ano e o primeiro dia do ano 
  * (1 se for um domingo, 2 se for segunda-feira, etc).
  * Seguidamente o programa escreve qual o dia da semana do primeiro 
  * dia de cada mês.
- * @author (Hugo Alexandre Silva - 18544)
+ * @author (Hugo Alexandre Silva)
  * @version (V.1 - 01/12/2019)
  * @version (V.2 - 03/12/2019)
  * @version (V.3 - 04/12/2019)
