@@ -1,6 +1,4 @@
 # ExercíciosJava
-Escola Superior de Tecnologia e Gestão do
- * Instituto Politécnico de Beja
 
 Exercícios de código java
 
