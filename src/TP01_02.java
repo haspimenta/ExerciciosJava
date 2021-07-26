@@ -1,13 +1,10 @@
 import java.util.Locale;
 import java.util.Scanner;
-/**Escola Superior de Tecnologia e Gestão do
- * Instituto PolitÈcnico de Beja
- * em 2016/09/29
- * -----------------------------------------------------
+/**
  * Escreva um programa que recebe um número inteiro positivo para escrever a quantidade
  * de alunos de uma escola e para cada aluno uma nota. Ao final deve-se calcular e imprimir a média das
  * notas, imprimir a maior nota e o nome do aluno e imprimir a segunda maior nota e o nome do aluno.
- * @author (Hugo Alexandre Silva 18544)
+ * @author (Hugo Alexandre Silva)
  * @version (V.1 - 30/10/2019)
  */
 public class TP01_02
